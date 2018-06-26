@@ -17,7 +17,7 @@ print('{} is a great video game, I got to go now see you later!'.format(video_ga
 ```
 
 ## So What Are Functions
-They are like a mini program inside of your program that contain inside reusable code. They are only run when they are called and they prevent errors and bugs in our code by avoiding duplication.
+They are like a mini program inside of your program that contain reusable code. They are only run when they are called and they prevent errors and bugs in our code by avoiding duplication.
 
 ## Let's Write a Function
 We can create a function for our hello world program:
