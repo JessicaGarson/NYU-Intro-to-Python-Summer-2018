@@ -1,55 +1,4 @@
-# Advanced Conditionals and Functions
-
-# Advanced Conditionals
-We're going to dive into some advanced uses of conditionals
-
-## In
-The in keyword, when used with a conditional, tells you whether some text appears in a string.
-
-```python
-if 'Messica Arson' in article:
-  print('It is so awesome Jess got her DJ project in this article')
-```
-
-## And  
-Using the and keyword, both conditions must be true for the print statement to run.
-
-```python
-if homework_turned_in == 0 and homework_assigned == 1:
-  print('Jess is sad')
-```
-
-## Or
-Using the or keyword, either condition could be true for the print statement to run.
-```python
-if state == 'MD' or state == 'DC' or state == 'DE' or state == 'VA' or state == 'PA':
-  print('You are from the Mid-Atlantic region')
-```
-
-## Nested Conditionals
-```python
-if state == 'NY':
-  print('You are in NY')
-elif state == 'NJ':
-  print('You are in NJ')
-elif state == ('CT')
-  print('')
-else:
-  print('We only service the New York Region')
-
-  if state == 'PA':
-    print('You are welcome to visit us still')
-  elif state == 'CA':
-    print('Wow, that would be quite the drive')
-```
-
-## Comments
-Comments are code that doesn't run.
-
-```python
-# I am a comment, I don't run
-print('hello world!')
-```
+# Functions
 
 ## General Advice
 If you are repeating yourself, you are likely doing it wrong.
@@ -62,7 +11,9 @@ tweet = 'My Professor @JessicaGarson is so awesome'
 len(tweet)
 tweet_length = len(tweet)
 print(tweet)
-input("What's your favorite video game? ")
+print('Your tweet is {}, and it contains {} charcters'.format(tweet, tweet_length))
+video_game = input("What's your favorite video game?\n")
+print('{} is a great video game, I got to go now see you later!'.format(video_game))
 ```
 
 ## So What Are Functions
@@ -73,7 +24,8 @@ We can create a function for our hello world program:
 
 ```python
 def hello_world():
-  print('Hello World!')
+    print('Hello World!')
+
 
 hello_world()
 ```
@@ -82,13 +34,16 @@ All functions have what's know as a def statement that allows us to define our f
 
 ```python
 def hello(name):
-  print('Hello {}'.format(name))
+    print('Hello {}'.format(name))
 
-hello('Jess')
-hello('Michelle')
 
-hello(name='Jess')
-hello(name='Michelle')
+# first way
+hello('Zack')
+hello('Amy')
+
+# second way
+hello(name='Zack')
+hello(name='Amy')
 ```
 
 ```python
@@ -101,11 +56,15 @@ profile_info('JessGarson', 452)
 
 # Call function with keyword arguments
 profile_info(username='JessGarson', followers=452)
-profile_info(followers=452, username='JessicaGarson')
+profile_info(followers=452, username='JessGarson')
 ```
 
-## Arguments/Parameters
-Functions take in parameters/arguments. Parameters are the variables inside the function. Arguments are the value passed into the function.
+## Arguments/Parameters/Arguments
+Functions take in parameters/arguments.
+
+Parameters are the variables inside the function.
+
+Arguments are the value passed into the function.
 
 ```python
 def add_numbers(x, y, z):
@@ -146,7 +105,6 @@ def square(x):
 
 result = square(3)
 print(result)
-
 ```
 
 ## Docstrings
@@ -156,7 +114,8 @@ def plus_one(number):
   """Adds one to the number"""
   return number + 1
 
-print(plus_one(number=4))
+
+print(plus_one(number=3))
 ```
 
 ## Local and Global Scope
@@ -171,21 +130,22 @@ def greeting(time):
   name = 'Jess' # local and temporary
   print('Hello {}, the time is {}'.format(name, time))
 
-# print(name)
+print(name)
 greeting(time=time)
 ```
 
 ```python
 import datetime
 
-time = datetime.datetime.now() # global
-name = 'James'
+time = datetime.datetime.now()  # global
+name = 'Rachel'
 
 
 def greeting(time):
-  global name
-  name = 'Jess'
-  print('Hello {}, the time is {}'.format(name, time))
+    global name
+    name = 'Jess'
+    print('Hello {}, the time is {}'.format(name, time))
+
 
 print(name)
 greeting(time=time)
@@ -201,7 +161,7 @@ This allows us to import in libraries. Libraries are bundles of other people's c
 This allows us to separate out the code so that is easier for debugging. So if something is going wrong you can take a look at the function, instead of looking through the entire program.
 
 ## Main Functions
-Many other programming languages require a main function in order to execute. Including a main() function, though not required, can structure our Python programs in a logical way that puts the most important components of the program into one function. It can also make our programs easier for non-Python programmers to read.
+Many other programming languages require a main function in order to execute. Including a `main()` function, though not required, can structure our Python programs in a logical way that puts the most important components of the program into one function. It can also make our programs easier for non-Python programmers to read.
 
 In Python, `__main__` is the name of the scope where top-level code will execute. When a program is run from standard input, a script, or from an interactive prompt, its `__name__` is set equal to `__main__`.
 
@@ -209,17 +169,20 @@ In Python, `__main__` is the name of the scope where top-level code will execute
 def hello():
     print('Hello, World!')
 
+
 def main():
     print('This is the main function.')
     hello()
 
+
 # main()
+
 
 if __name__ == '__main__':
     main()
 
 # if __name__ == '__main__':
-  # hello()
+    # hello()
 ```
 
 ## Your Functions They Do Too Much
