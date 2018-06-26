@@ -66,6 +66,12 @@ Parameters are the variables inside the function.
 
 Arguments are the value passed into the function.
 
+```
+def something(parameter):
+    code goes here
+    return value
+```
+
 ```python
 def add_numbers(x, y, z):
     a = x + y
@@ -90,12 +96,6 @@ def plus_one(number):
   return number + 1
 
 plus_one(number=3)
-```
-
-```
-def something(parameter):
-    # your code goes here
-    return value
 ```
 
 ```python
