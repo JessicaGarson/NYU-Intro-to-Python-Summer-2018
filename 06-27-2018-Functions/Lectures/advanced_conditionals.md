@@ -1,3 +1,8 @@
+# Advanced Conditionals
+
+## Questions
+We will be holding all questions to the end.
+
 ## Comments
 Comments are code that doesn't run.
 
@@ -28,6 +33,21 @@ if homework_turned_in == 0 and homework_assigned == 1:
     print('Jess is sad')
 ```
 
+```python
+grade = 80
+
+if grade >= 90 and grade <= 100:
+    print("You got a A")
+elif grade >= 80 and grade <= 89:
+    print("You got a B")
+elif grade >= 70 and grade <= 79:
+    print("You got a C")
+elif grade >= 60 and grade <= 69:
+    print("You got a D")
+else:
+    print("I'm sorry to say you failed this class")
+```
+
 ## Or
 Using the or keyword, either condition could be true for the print statement to run.
 ```python
@@ -55,3 +75,6 @@ else:
     elif state == 'CA':
         print('Wow, that would be quite the drive')
 ```
+
+## Questions
+Any questions you may have.
