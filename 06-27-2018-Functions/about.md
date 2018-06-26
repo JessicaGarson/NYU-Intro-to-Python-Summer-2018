@@ -21,8 +21,11 @@ Rewriting Our Code with Functions:
 ## Homework Show and Tell
 We'll get started with reviewing our homework! Break up into groups of 5 - 6 and go around and discuss how you solved the homework assignment.
 
+## Code Examples
+We'll be using code examples for a lot of class today. This code is found under the code file inside of today's folder in the main repository.
+
 ## Mob Programming
-We're going to be programming together with one computer for a lot of today's class. The way this works is you will be lining up to use your my computer.
+We're going to be programming together with one computer for a lot of today's class. The way this works is you will be lining up to use your my computer. I'll add this to GitHub after class.
 
 ## How to Prep For Next Class
 We have some time apart, there is a homework assignment around functions.
