@@ -14,13 +14,13 @@ This will yield:
 '<i>Yay</i>'
 
 If you run:
-make_tags('i', 'Hello') 
+make_tags('i', 'Hello')
 
 This will yield:
 '<i>Hello</i>'
 
 If you run:
-make_tags('cite', 'Yay') 
+make_tags('cite', 'Yay')
 
 This will yieldL:
 '<cite>Yay</cite>'
@@ -30,6 +30,6 @@ This will yieldL:
 Write a function where a user enters a number and the function will tell them if the number is odd or even.
 
 ## Part 3: Sleep In Calculator
-Write a program that let's you know if you can sleep in. If the day is a weekday, let the user know they can't sleep in and have to go to work. If the day is a weekend let them know they can sleep in.
+Write a function that let's you know if you can sleep in. If the day is a weekday, let the user know they can't sleep in and have to go to work. If the day is a weekend let them know they can sleep in.
 
 ***This assignment is due Wednesday July 11th at 6:30 PM***
