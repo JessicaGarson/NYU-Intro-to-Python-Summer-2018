@@ -62,10 +62,10 @@ We'll focus on functions which are the building blocks of programs in python.
 We'll focus on lists and loops for this class. We'll spend some time live coding and end the class by writing a program together as a class.
 
 - Show and tell homework number 2 review
-- How the internet works
 - Lists and loops
 - Writing a program as a class
 - Pair programming
+- How the internet works
 
 ## Wednesday July 18th
 6:30 - 9:30 PM
