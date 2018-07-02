@@ -6,8 +6,9 @@ time = datetime.datetime.now()  # global
 
 def greeting(time):
     name = 'Jess'  # local and temporary
-    print('Hello {}, the time is {}'.format(name, time))
+    return('Hello {}, the time is {}'.format(name, time))
 
-
-print(name)
-greeting(time=time)
+# won't work
+# print(name)
+greet = greeting(time=time)
+print(greet)

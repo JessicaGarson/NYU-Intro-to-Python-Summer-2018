@@ -1,7 +1,6 @@
 def square(x):
-    y = x ** 2
-    return y
+    return x ** 2
 
 
-result = square(3)
+result = square(x=3)
 print(result)

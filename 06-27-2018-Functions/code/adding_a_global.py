@@ -1,11 +1,11 @@
 import datetime
 
 time = datetime.datetime.now()  # global
-name = 'Rachel'
+name = 'Rachel' # global
 
 
 def greeting(time):
-    global name
+    # global name
     name = 'Jess'
     print('Hello {}, the time is {}'.format(name, time))
 

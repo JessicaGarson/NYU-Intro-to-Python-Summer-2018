@@ -9,4 +9,3 @@ profile_info('JessGarson', 452)
 
 # Call function with keyword arguments
 profile_info(username='JessGarson',   followers=452)
-profile_info(followers=452, username='JessGarson')

@@ -1,9 +1,12 @@
+# name is the arguement
 def hello(name):
     print('Hello {}'.format(name))
 
 
 # first way
-hello('Zack')
+# YK and Amy are the parameters
+
+hello('YK')
 hello('Amy')
 
 # second way

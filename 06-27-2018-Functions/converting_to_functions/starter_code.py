@@ -8,7 +8,7 @@ print(len_tweet)
 len_allowed = int(twitter_max)
 len_remain = len_allowed - len_tweet
 
-if len_remain >= 0:
+if len_remain <= len_allowed:
     print('That tweet is {} characters and you have {} remaining characters' .format(len_tweet, len_remain))
 else:
     print('That tweet is {} characters and you have to trim by {} characters').format(len_tweet, - len_remain)

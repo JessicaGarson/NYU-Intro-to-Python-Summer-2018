@@ -1,3 +1,5 @@
+# I am a comment I don't run
+
 tweet = 'My Professor @JessicaGarson is so awesome'
 len(tweet)
 tweet_length = len(tweet)
