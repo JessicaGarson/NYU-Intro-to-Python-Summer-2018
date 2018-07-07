@@ -62,10 +62,10 @@ We'll focus on functions which are the building blocks of programs in python.
 We'll focus on lists and loops for this class. We'll spend some time live coding and end the class by writing a program together as a class.
 
 - Show and tell homework number 2 review
+- Review of Functions
 - Lists and loops
-- Writing a program as a class
 - Pair programming
-- How the internet works
+
 
 ## Wednesday July 18th
 6:30 - 9:30 PM
@@ -73,10 +73,10 @@ We'll focus on lists and loops for this class. We'll spend some time live coding
 This class will focus on teaming up and pair programming on and we'll end class with a lecture on debugging problems.
 
 - Pip
-- Virtual environments
 - Pair programming on HackerRank problems
 - Presentation of one problem you solved
 - Debugging hard problems
+- How the Internet Works
 - Homework 3 Introduce
 
 ## Wednesday July 25th
@@ -85,6 +85,7 @@ This class will focus on teaming up and pair programming on and we'll end class 
 We'll talk about tuples, dictionaries and sets. Review our homework assignments and set up to work together while programming in pairs.
 
 - Further environment set up
+- Virtual environments
 - Tuples
 - Sets
 - Dictionaries
@@ -101,8 +102,9 @@ We'll be learning about the basis for data science work in Python. We will be ju
 - Pandas
 - The OS library
 - Homework number 4 introduce
+- Ask a Data Scientist
 
-## Wednesday August 8th
+## Monday August 13th
 6:30 - 9:30 PM
 
 This class will focus on the basics of object oriented programming in python and we'll also dive into testing our code as well.
