@@ -195,5 +195,9 @@ if __name__ == '__main__':
     main()
 ```
 
+What can be made better about this code? It works but there are some awkward things about it? What is awkward about?
+
+Let's take a look at the variables in the main function these can be made better? How so?
+
 ## Homework 2 Solutions
 Let's talk through solutions to homework two. What worked well? What didn't? How would we solve these problems.

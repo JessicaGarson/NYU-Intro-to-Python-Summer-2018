@@ -22,10 +22,10 @@ def remain(len_allowed, len_tweet):
 
 
 def logic(tweet_length, len_allowed, len_remain):
-    if len_remain <= len_allowed:
+    if len_remain >= 0:
         print('That tweet is {} characters and you have {} remaining characters'.format(tweet_length, len_remain))
     else:
-        print('That tweet is {} characters and you have to trim by {} characters'.format(len_allowed, len_allowed - len_remain))
+        print('That tweet is {} characters and you have to trim by {} characters'.format(tweet_length,- len_remain))
 
 
 def main():
