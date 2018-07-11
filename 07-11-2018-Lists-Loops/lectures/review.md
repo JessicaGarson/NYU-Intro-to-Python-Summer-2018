@@ -195,7 +195,7 @@ if __name__ == '__main__':
     main()
 ```
 
-What can be made better about this code? It works but there are some awkward things about it? What is awkward about?
+What can be made better about this code? It works but there are some awkward things about it. What is awkward about it?
 
 Let's take a look at the variables in the main function these can be made better? How so?
 
