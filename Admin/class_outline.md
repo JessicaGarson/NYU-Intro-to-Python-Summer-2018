@@ -71,13 +71,12 @@ We'll focus on lists and loops for this class. We'll spend some time live coding
 6:30 - 9:30 PM
 
 This class will focus on teaming up and pair programming on and we'll end class with a lecture on debugging problems.
-
+- Homework 3 Introduce
+- How the Internet Works
 - Pip
 - Pair programming on HackerRank problems
 - Presentation of one problem you solved
 - Debugging hard problems
-- How the Internet Works
-- Homework 3 Introduce
 
 ## Wednesday July 25th
 6:30 - 9:30 PM

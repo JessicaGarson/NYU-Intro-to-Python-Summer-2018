@@ -1,4 +1,4 @@
-name = str(input('Enter your name: '))
+name = input('Enter your name: ')
 print('The name you entered is {}'.format(name))
 
 
@@ -14,7 +14,9 @@ def has_vowel():
 def main():
     has_vowel()
 
+main()
 
-# Execute main() function
-if __name__ == '__main__':
-    main  # Code to run when this is the main program here.
+#
+# # Execute main() function
+# if __name__ == '__main__':
+#     has_vowel() # Code to run when this is the main program here.
