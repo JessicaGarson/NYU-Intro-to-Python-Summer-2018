@@ -1,17 +1,19 @@
 # Wednesday July 18th
-We're going to take some today and make sure we have our basic concepts covered before we move forward to more difficult content. Slides are found [here](http://jessicagarson.com/NYU-Intro-to-Python-March-1/)
+We're going to take some today and make sure we have our basic concepts covered before we move forward to more difficult content. Slides are found [here](). 
 
 ## Agenda
 ### 6:30 - 6:35
 Introduce Homework # 3
-### 6:35 - 7:00
+### 6:35 - 6:50
 Review
-### 7:00 - 7:15
+### 6:50 - 7:05
+Advanced Loops
+## 7:05 - 7:15
 Pip
 ### 7:15 - 8:15
 HackerRank Problems
-### 8:15 - 8:30
-Presentation of one cool thing you solved
+### 8:15 - 8:25
+Debrief on HankerRank
 ### 8:30 - 9:00
 Debugging Hard Problems
 ### 9:00 - 9:30
