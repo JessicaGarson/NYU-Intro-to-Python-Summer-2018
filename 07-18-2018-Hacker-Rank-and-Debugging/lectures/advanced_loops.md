@@ -83,9 +83,46 @@ a += b is essentially the same as a = a + b, except that:
 
 In a = a + b, a is evaluated twice.
 
+age = 33
+num = 13
+
+Let's look at this example:
+
+```python
+age = 33
+num = 13
+
+while num < age:
+    print(num)
+```
+
+This allows this code to keep iterating:
+
+```python
+while num < age:
+    print(num)
+    num += 1
+```
+
+Let's also look at this example:
+
 ```python
 count = 0
 while count < 5:
     print(count)
     count += 1
+```
+
+## While True
+
+While true allows the loop to run forever, unless there is a break noted:
+
+```python
+i = 0
+
+while True:
+    i += 1
+    if i == 12:
+        break
+    print(i)
 ```
