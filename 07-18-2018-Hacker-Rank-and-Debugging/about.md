@@ -1,5 +1,5 @@
 # Wednesday July 18th
-We're going to take some today and make sure we have our basic concepts covered before we move forward to more difficult content. Slides are found [here]().
+We're going to take some today and make sure we have our basic concepts covered before we move forward to more difficult content. Slides are found [here](http://jessicagarson.com/NYU-Intro-to-Python-07-18-2018).
 
 ## Agenda
 ### 6:30 - 6:35
