@@ -2,7 +2,8 @@
 Today we're going to be digging into data structures in Python. We'll start off with an open question period, do a review of the last class, set up our text editor more and dive into data structures in Python.
 
 ## Slides
-Slides are found [here]()
+Slides are found [here](http://jessicagarson.com/NYU-Intro-to-Python-07-25-2018/)
+
 
 ## Agenda
 ### 6:30 - 6:45
