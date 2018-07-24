@@ -109,6 +109,7 @@ We'll be learning about the basis for data science work in Python. We will be ju
 This class will focus on the basics of object oriented programming in python and we'll also dive into testing our code as well.
 
 - Homework Review
+- PDB
 - Object Oriented Python
 - Group activity on OOP
 - Testing
