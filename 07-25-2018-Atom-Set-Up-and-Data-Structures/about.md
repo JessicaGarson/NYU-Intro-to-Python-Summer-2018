@@ -4,7 +4,6 @@ Today we're going to be digging into data structures in Python. We'll start off 
 ## Slides
 Slides are found [here](http://jessicagarson.com/NYU-Intro-to-Python-07-25-2018/)
 
-
 ## Agenda
 ### 6:30 - 6:45
 Open Questions
