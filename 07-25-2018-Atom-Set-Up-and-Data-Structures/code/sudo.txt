@@ -1,0 +1,5 @@
+dictionary = {key: value}
+
+dict[key] = value
+
+del dict[key]
