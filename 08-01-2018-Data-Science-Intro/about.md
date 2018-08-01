@@ -2,7 +2,7 @@
 We are going to be diving into Data Science in Python.
 
 ## Slides
-Slides are [here](http://jessicagarson.com/NYU-Intro-to-Python-March-8)
+Slides are [here](http://jessicagarson.com/NYU-Intro-to-Python-08-01-2018/)
 
 ## Agenda
 ### 6:30 - 6:40
