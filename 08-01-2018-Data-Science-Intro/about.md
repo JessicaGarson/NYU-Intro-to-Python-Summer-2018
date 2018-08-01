@@ -17,6 +17,9 @@ Slides are [here](http://jessicagarson.com/NYU-Intro-to-Python-08-01-2018/)
 ### 8:30 - 9:30
 - Guest Lecture
 
+## Sian Lewis
+Sian Lewis, a DC-based Pythonista at Booz Allen Hamilton, is a decision scientist who specializes in machine learning and deep learning. She combines tech, math, business acumen, design thinking and behavioral economics to help the federal government, political campaigns, and nonprofit organizations make better decisions.
+
 ## How to Prep for Next Class
 - [Improve Your Python: Python Classes and Object Oriented Programming](https://jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/)
 - [Object Oriented Programming Python](https://www.digitalocean.com/community/tutorial_series/object-oriented-programming-in-python-3)
