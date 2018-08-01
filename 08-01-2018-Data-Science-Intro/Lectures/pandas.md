@@ -70,7 +70,7 @@ df.columns
 ```
 To rename the column with the trailing space we can use this code.
 ```python
-df.rename(columns={'Name ':'name'}, inplace=True)
+df.rename(columns={'Name ':'Name'}, inplace=True)
 ```
 
 ## Clean up the trailing spaces.
