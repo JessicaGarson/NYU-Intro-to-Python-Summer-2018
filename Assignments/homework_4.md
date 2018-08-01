@@ -56,4 +56,4 @@ Create a tuple of many of the major tasks you have to complete for the day in th
 
 Create a program that goes through this tuple and tells the story of a typical day for you.
 
-***This assignment is due Wednesday August 8th 6:30pm***
+***This assignment is due Thursday August 8th 9:30am***
