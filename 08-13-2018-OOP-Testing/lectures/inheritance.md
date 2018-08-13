@@ -1,5 +1,5 @@
 # Object Oriented Programming Continued
-On Monday we discussed the following concepts
+We just discussed the following concepts:
 1. Object oriented programming
 2. The difference between objects and classes
 3. The basic syntax of classes
@@ -37,7 +37,7 @@ class Customer(object):
         return self.balance
 ```
 
-# Inheritance
+## Inheritance
 We already know this word. What does it mean in terms of biology?
 
 In programming, this isn't too far off too. Inheritance helps us organize classes into a hierarchy. Therefore classes can inherit attributes and behavior from classes above in the hierarchy.
