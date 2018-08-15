@@ -27,7 +27,7 @@ class TestAdd(unittest.TestCase):
         concatenated string
         """
         result = my_math.add('abc', 'def')
-        self.assertEqual(result, 'abc def')
+        self.assertEqual(result, 'abcdef')
 
 
 class TestSubtract(unittest.TestCase):
@@ -36,7 +36,7 @@ class TestSubtract(unittest.TestCase):
     """
     def test_subtract_integers(self):
         result = my_math.subtract(3, 1)
-        self.assertEqual(result, 0)
+        self.assertEqual(result, 2)
 
     def test_subtract_floats(self):
         result = my_math.subtract(1.0, 0.5)

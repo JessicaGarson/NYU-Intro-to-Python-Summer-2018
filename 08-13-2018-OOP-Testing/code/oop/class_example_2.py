@@ -14,6 +14,8 @@ def main():
     yasha.classroom()
     yasha.frustration()
     yasha.happiness()
+    angela = Student()
+    angela.classroom()
 
 
 if __name__ == "__main__":

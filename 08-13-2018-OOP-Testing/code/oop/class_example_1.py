@@ -7,3 +7,7 @@ class Student:
 
     def happiness(self):
         print('OMG, I solved the error I am so happy and smart')
+
+    def excitment(self):
+        print('Yay we are learning Python')
+        

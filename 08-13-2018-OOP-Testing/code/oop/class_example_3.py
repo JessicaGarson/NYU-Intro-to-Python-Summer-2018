@@ -21,6 +21,10 @@ def main():
     joyce.classroom()
     joyce.frustration()
     joyce.happiness()
+    lauren = Student('Lauren')
+    lauren.classroom()
+    lauren.frustration()
+    lauren.happiness()
 
 
 if __name__ == "__main__":

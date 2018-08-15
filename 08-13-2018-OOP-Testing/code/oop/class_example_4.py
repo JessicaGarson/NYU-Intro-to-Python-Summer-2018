@@ -38,6 +38,12 @@ def main():
     # Print out class variable animal_type
     print(george.insitution)
 
+    alexis = Student('Alexis', 30)
+    print(alexis.name)
+    print(alexis.age)
+    print(alexis.location)
+    print(alexis.insitution)
+
 
 if __name__ == "__main__":
     main()

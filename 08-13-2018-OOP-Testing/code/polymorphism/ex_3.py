@@ -9,7 +9,7 @@ class Shark():
         print("The shark's skeleton is made of cartilage.")
 
     def color(self):
-        print('No color')
+        print('A shark is blue and white')
 
 
 class Clownfish():

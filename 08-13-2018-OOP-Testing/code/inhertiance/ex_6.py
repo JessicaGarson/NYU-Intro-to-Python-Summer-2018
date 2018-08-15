@@ -25,24 +25,26 @@ class Bro(Fam):
         print('Family dinner is at 6pm every night, with his two kids')
 
 
+class Cat:
+
+    def community(self):
+        print("I live with the fam.")
+
+
+class Dog:
+
+    def protect_fam(self):
+        print('I protect the fam')
+
+
+class Pets(Cat, Dog):
+    pass
+
+
 def main():
-    kelly = Bro()
-
-    # Initialize first name
-    kelly.first_name = 'Kelly'
-
-    # Use parent __init__() through super()
-    print('{} {}'.format(kelly.first_name, kelly.last_name))
-
-    # Use child __init__() override
-    print(kelly.city)
-
-    # Use parent swim() method
-    kelly.vacation()
-
-    jess = Fam('Jess')
-    jess.vacation()
-    # jess.city()
+    great_barrier = Pets()
+    great_barrier.community()
+    great_barrier.protect_fam()
 
 
 if __name__ == "__main__":
